@@ -70,9 +70,17 @@
     <section class="hero" id="top">
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="hero-row">
-        <div class="hero-copy reveal">
+        <div class="hero-head reveal">
           <p class="chip"><span class="chip-dot" aria-hidden="true"></span>Solar, heat pumps and batteries in Anytown, Hampshire</p>
           <h1>Make your own power. Store it. Use it.</h1>
+        </div>
+
+        <div class="quote-card reveal" id="quote">
+          <div id="solar-quote"></div>
+          <noscript><p class="quote-noscript">The quote builder needs JavaScript. Call 07700 900123 or email hello@example.com instead.</p></noscript>
+        </div>
+
+        <div class="hero-body reveal">
           <p class="lead">We design and fit solar panels, heat pumps and home batteries for homes and small businesses in and around Anytown. We visit first, quote in writing and talk you through every option.</p>
           <div class="buttons">
             <a class="btn btn-primary" href="#quote">Get a solar estimate
@@ -85,15 +93,6 @@
             <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Written quotes</li>
             <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Based in Anytown, Hampshire</li>
           </ul>
-        </div>
-
-        <div class="quote-card reveal" id="quote">
-          <div class="quote-card-head">
-            <p class="label">Solar quote builder</p>
-            <p class="quote-tip">Demo tip: type <strong>1 Example Lane</strong> to see the roof view.</p>
-          </div>
-          <iframe class="quote-frame" src="quote/index.html?embed=1" title="Solar quote builder" loading="eager"></iframe>
-          <noscript><p class="quote-noscript">The quote builder needs JavaScript. Call 07700 900123 or email hello@example.com instead.</p></noscript>
         </div>
       </div>
     </section>
@@ -311,6 +310,7 @@
     </div>
   </footer>
 
+  <script src="quote/widget.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>
