@@ -117,7 +117,7 @@ h1 {
   position: absolute; inset: 0; z-index: 0;
   background:
     linear-gradient(90deg, rgba(16,16,24,.97) 0%, rgba(16,16,24,.84) 46%, rgba(16,16,24,.3) 100%),
-    url("../images/hero-house-solar.jpg") center 30% / cover no-repeat;
+    url("../images/hero-house-solar.jpg") center 48% / cover no-repeat;
 }
 .hero-bg::after {
   content: ""; position: absolute; inset: auto 0 0 0; height: 160px;
@@ -170,7 +170,7 @@ h1 {
   .quote-card { width: 100%; max-width: 520px; }
   .hero-bg { background:
     linear-gradient(180deg, rgba(16,16,24,.88) 0%, rgba(16,16,24,.72) 45%, var(--black) 92%),
-    url("../images/hero-house-solar.jpg") center 20% / cover no-repeat; }
+    url("../images/hero-house-solar.jpg") center 42% / cover no-repeat; }
 }
 @media (max-width: 809.98px) {
   .hero { padding: 36px var(--side) 56px; }
