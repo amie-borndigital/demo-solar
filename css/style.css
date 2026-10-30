@@ -174,7 +174,8 @@ h1 {
 }
 @media (max-width: 809.98px) {
   .hero { padding: 36px var(--side) 56px; }
-  .hero-row { row-gap: 24px; }
+  /* Phone: headline, intro, contact buttons and ticks first, then the quote card. */
+  .hero-row { grid-template-areas: "head" "body" "card"; row-gap: 24px; }
   .hero-head, .hero-body { gap: 22px; }
   .buttons .btn { flex: 1 1 100%; }
   .ticks { flex-direction: column; gap: 10px; }
